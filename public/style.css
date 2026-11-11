@@ -1,0 +1,35 @@
+
+body {
+    font-family: Arial;
+    margin: 40px;
+    background: #f2f2ff;
+}
+
+h1 {
+    color: purple;
+}
+
+input {
+    padding: 10px;
+    margin: 5px;
+}
+
+button {
+    padding: 10px;
+    background: purple;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background: white;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+}

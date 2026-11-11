@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart Event Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Smart Event Management</h1>
+
+    <input type="text" id="name" placeholder="Event Name">
+    <input type="date" id="date">
+    <input type="text" id="venue" placeholder="Event Venue">
+
+    <button onclick="addEvent()">Add Event</button>
+
+    <h2>Event List</h2>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Date</th>
+                <th>Venue</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="eventTable"></tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
